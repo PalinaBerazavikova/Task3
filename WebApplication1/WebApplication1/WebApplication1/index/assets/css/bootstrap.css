@@ -1,0 +1,45 @@
+/*header, bottom*/
+@media print {
+  * {
+    color: #000 !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+ 
+ 
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*col bottom*/
+@media (min-width: 1200px) {
+  .col-lg-4 {
+    float: left;
+  }
+
+  .col-lg-4 {
+    width: 33.33333333333333%;
+  }
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+.navbar-inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+
+

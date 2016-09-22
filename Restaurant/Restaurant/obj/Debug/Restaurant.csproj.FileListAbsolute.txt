@@ -1,0 +1,2 @@
+c:\users\palina_berazavikova\documents\visual studio 2015\Projects\Restaurant\Restaurant\bin\Debug\Restaurant.exe.config
+D:\visualStudio\projects\Restaurant\Restaurant\bin\Debug\Restaurant.exe.config
