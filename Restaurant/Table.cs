@@ -14,9 +14,8 @@ namespace Restaurant
         public int NumberOfChairs { get { return numberOfChairs; } private set { numberOfChairs = value; } }
         private bool isReserved = false;
         public bool IsReserved { get { return isReserved; } private set { isReserved = value; } }
-        private List<Order> tablesOfWaiter = new List<Table>();
+        private List<Order> tablesOfWaiter = new List<Order>();
         public List<Table> TablesOfWaiter { get { return TablesOfWaiter; } private set { TablesOfWaiter = value; } }
-
 
     }
 }

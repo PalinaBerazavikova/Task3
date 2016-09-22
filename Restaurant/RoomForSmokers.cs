@@ -8,6 +8,9 @@ namespace Restaurant
 {
     class RoomForSmokers:Room
     {
+        protected bool ashtray = true;
+        public bool Ashtray { get { return ashtray; } private set { ashtray = value; } }
+
         RoomForSmokers()
         {
             this.NameOfRoom = "smoke";

@@ -8,5 +8,7 @@ namespace Restaurant
 {//
     class Order
     {
+        private List<Dish> currentOrder = new List<Dish>();
+        public List<Dish> CurrentOrder { get { return currentOrder; } private set { currentOrder = value; } }
     }
 }
