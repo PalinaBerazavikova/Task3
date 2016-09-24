@@ -48,6 +48,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="nunit.framework, Version=3.4.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.4.1\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -58,21 +63,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cooker.cs" />
-    <Compile Include="Dish.cs" />
+    <Compile Include="Rooms\RoomForNonSmokers.cs" />
+    <Compile Include="Workers\Cooker.cs" />
+    <Compile Include="Dishes\Desert.cs" />
+    <Compile Include="Dishes\Dish.cs" />
+    <Compile Include="Dishes\Drink.cs" />
+    <Compile Include="Dishes\Entree.cs" />
     <Compile Include="Guest.cs" />
-    <Compile Include="Menu.cs" />
+    <Compile Include="Dishes\Menu.cs" />
     <Compile Include="Order.cs" />
-    <Compile Include="RoomForSmokers.cs" />
+    <Compile Include="Rooms\RoomForSmokers.cs" />
     <Compile Include="Runner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Room.cs" />
-    <Compile Include="Table.cs" />
-    <Compile Include="Waiter.cs" />
-    <Compile Include="Worker.cs" />
+    <Compile Include="Rooms\Room.cs" />
+    <Compile Include="Dishes\Salad.cs" />
+    <Compile Include="Rooms\Table.cs" />
+    <Compile Include="Workers\Waiter.cs" />
+    <Compile Include="Workers\Worker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">

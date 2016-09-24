@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Restaurant
 {
-    class Room
+    public abstract class Room
     {
-        private List<Table> tables = new List<Table>();
-        public List<Table> Tables { get { return tables; } private set { tables = value; } }
-        private string nameOfRoom = "no-smoke";
+        protected List<Table> tables = new List<Table>();
+        public List<Table> Tables { get { return tables; } set { tables = value; } }
+        protected string nameOfRoom;
         public string NameOfRoom { get { return nameOfRoom; } set { nameOfRoom = value; } }
+
+       
     }
 }

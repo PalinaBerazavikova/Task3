@@ -13,7 +13,7 @@ namespace Restaurant
 
         public void CookOrder(Waiter waiter)
         {
-            waiter.
+            //waiter.
         }
     }
 }

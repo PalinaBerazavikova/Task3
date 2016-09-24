@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Restaurant
 {
-    class RoomForSmokers:Room
+    abstract class Worker
     {
-        RoomForSmokers()
-        {
-            this.NameOfRoom = "smoke";
-        }
+        private bool isWork = true;
+        public bool IsWork { get { return isWork; } protected set { isWork = value; } }
+
     }
 }

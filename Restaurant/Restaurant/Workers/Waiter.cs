@@ -11,5 +11,7 @@ namespace Restaurant
         private List<Table> tablesOfWaiter  = new List<Table>();
         public List<Table> TablesOfWaiter { get { return TablesOfWaiter; } private set { TablesOfWaiter = value; } }
 
+
+
     }
 }

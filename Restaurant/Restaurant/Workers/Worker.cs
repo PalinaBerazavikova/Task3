@@ -9,7 +9,7 @@ namespace Restaurant
     abstract class Worker
     {
         private bool isWork = true;
-        public bool IsWork { get { return isWork; } private set { isWork = value; } }
+        public bool IsWork { get { return isWork; } protected set { isWork = value; } }
 
     }
 }
